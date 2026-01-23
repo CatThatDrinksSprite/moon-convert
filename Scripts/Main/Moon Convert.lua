@@ -3,11 +3,11 @@ if not isfolder("ScriptBase") then
 end
 
 if not isfile("ScriptBase/notification.mp3") then
-	writefile("ScriptBase/notification.mp3", game:HttpGet("https://github.com/CatThatDrinksSprite/Moon-Convert/raw/main/ScriptBase/notification.mp3", true))
+	writefile("ScriptBase/notification.mp3", game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/ScriptBase/notification.mp3", true))
 end
 
-loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Main/scriptcmds.lua", true))()
-loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Other/sendNotification.lua", true))()
+loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Main/scriptcmds.lua", true))()
+loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Other/sendNotification.lua", true))()
 sendNotification("Moon Convert", "gg/DPBtncwaEm", 7)
 print(game.PlaceId)
 if game.PlaceId ~= 123974602339071 and game.PlaceId ~= 88308889239232 then

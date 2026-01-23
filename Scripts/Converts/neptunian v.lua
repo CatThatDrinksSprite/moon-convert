@@ -1,9 +1,9 @@
-loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Other/LoadLibrary.lua", true))()
-loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Other/AlignCharacter.lua", true))()
-loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Other/sendNotification.lua", true))()
+loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Other/LoadLibrary.lua", true))()
+loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Other/AlignCharacter.lua", true))()
+loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Other/sendNotification.lua", true))()
 
 if not isfile("ScriptBase/neptunian v.mp3") then
-	writefile("ScriptBase/neptunian v.mp3", game:HttpGet("https://github.com/CatThatDrinksSprite/Moon-Convert/raw/main/ScriptBase/neptunian%20v.mp3", true))
+	writefile("ScriptBase/neptunian v.mp3", game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/ScriptBase/neptunian%20v.mp3", true))
 end
 
 --- Did actually rework heavily away from original neptunian, and the non-rework neptunian. -- NoobyGames12

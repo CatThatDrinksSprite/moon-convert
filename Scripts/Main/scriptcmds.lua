@@ -1,9 +1,9 @@
-loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Other/sendNotification.lua", true))()
+loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Other/sendNotification.lua", true))()
 
 scriptcmds = {
   ["reanimate"] = function()
     sendNotification("Moon Convert", "Reanimating!", 7)
-    loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Reanimation/MyWorld.lua", true))()
+    loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Reanimation/MyWorld.lua", true))()
   end,
   ["discord"] = function()
     setclipboard([[gg/DPBtncwaEm]])
@@ -12,7 +12,7 @@ scriptcmds = {
   ["sonic"] = function()
     sendNotification("Moon Convert", "Ran!", 7)
     if game.Players.LocalPlayer.Character:FindFirstChild("MoonConvertRealChar") then
-      loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/sonic.lua", true))()
+      loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/sonic.lua", true))()
     else
       sendNotification("Moon Convert", "Please use command \"reanimate\" first.", 7)
     end
@@ -20,7 +20,7 @@ scriptcmds = {
   ["chips"] = function()
     sendNotification("Moon Convert", "Ran!", 7)
     if game.Players.LocalPlayer.Character:FindFirstChild("MoonConvertRealChar") then
-      loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/chips.lua", true))()
+      loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/chips.lua", true))()
     else
       sendNotification("Moon Convert", "Please use command \"reanimate\" first.", 7)
     end
@@ -28,7 +28,7 @@ scriptcmds = {
   ["memeus"] = function()
     sendNotification("Moon Convert", "Ran!", 7)
     if game.Players.LocalPlayer.Character:FindFirstChild("MoonConvertRealChar") then
-      loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/memeus.lua", true))()
+      loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/memeus.lua", true))()
     else
       sendNotification("Moon Convert", "Please use command \"reanimate\" first.", 7)
     end
@@ -36,7 +36,7 @@ scriptcmds = {
   ["server admin"] = function()
     sendNotification("Moon Convert", "Ran!", 7)
     if game.Players.LocalPlayer.Character:FindFirstChild("MoonConvertRealChar") then
-      loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/server%20admin.lua", true))()
+      loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/server%20admin.lua", true))()
     else
       sendNotification("Moon Convert", "Please use command \"reanimate\" first.", 7)
     end
@@ -44,7 +44,7 @@ scriptcmds = {
   ["holiday feelings"] = function()
     sendNotification("Moon Convert", "Ran!", 7)
     if game.Players.LocalPlayer.Character:FindFirstChild("MoonConvertRealChar") then
-      loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/holiday%20feelings.lua", true))()
+      loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/holiday%20feelings.lua", true))()
     else
       sendNotification("Moon Convert", "Please use command \"reanimate\" first.", 7)
     end
@@ -112,7 +112,7 @@ end
 ["ban hammer"] = function()
     sendNotification("Moon Convert", "Ran!", 7)
     if game.Players.LocalPlayer.Character:FindFirstChild("MoonConvertRealChar") then
-      loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/ban%20hammer.lua", true))()
+      loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/ban%20hammer.lua", true))()
     else
       sendNotification("Moon Convert", "Please use command \"reanimate\" first.", 7)
     end
@@ -120,7 +120,7 @@ end
   ["neptunian v"] = function()
     sendNotification("Moon Convert", "Ran!", 7)
     if game.Players.LocalPlayer.Character:FindFirstChild("MoonConvertRealChar") then
-      loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/neptunian%20v.lua", true))()
+      loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/neptunian%20v.lua", true))()
     else
       sendNotification("Moon Convert", "Please use command \"reanimate\" first.", 7)
     end
@@ -148,7 +148,7 @@ end
   ["voodoo child"] = function()
     sendNotification("Moon Convert", "Ran!", 7)
     if game.Players.LocalPlayer.Character:FindFirstChild("MoonConvertRealChar") then
-      loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/voodoo%20child.lua", true))()
+      loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/voodoo%20child.lua", true))()
     else
       sendNotification("Moon Convert", "Please use command \"reanimate\" first.", 7)
     end
@@ -176,7 +176,7 @@ end
   ["hoverboard"] = function()
     sendNotification("Moon Convert", "Ran!", 7)
     if game.Players.LocalPlayer.Character:FindFirstChild("MoonConvertRealChar") then
-      loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/hoverboard.lua", true))()
+      loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/hoverboard.lua", true))()
     else
       sendNotification("Moon Convert", "Please use command \"reanimate\" first.", 7)
     end
@@ -184,7 +184,7 @@ end
   ["caducus"] = function()
     sendNotification("Moon Convert", "Ran!", 7)
     if game.Players.LocalPlayer.Character:FindFirstChild("MoonConvertRealChar") then
-      loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/caducus.lua", true))()
+      loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/caducus.lua", true))()
     else
       sendNotification("Moon Convert", "Please use command \"reanimate\" first.", 7)
     end
@@ -192,7 +192,7 @@ end
   ["animation man"] = function()
     sendNotification("Moon Convert", "Ran!", 7)
     if game.Players.LocalPlayer.Character:FindFirstChild("MoonConvertRealChar") then
-      loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/animation%20man.lua", true))()
+      loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/animation%20man.lua", true))()
     else
       sendNotification("Moon Convert", "Please use command \"reanimate\" first.", 7)
     end
@@ -220,7 +220,7 @@ end
   ["asterazuke glitcher"] = function()
     sendNotification("Moon Convert", "Ran!", 7)
     if game.Players.LocalPlayer.Character:FindFirstChild("MoonConvertRealChar") then
-      loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/asterazuke%20glitcher.lua", true))()
+      loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/asterazuke%20glitcher.lua", true))()
     else
       sendNotification("Moon Convert", "Please use command \"reanimate\" first.", 7)
     end
@@ -228,7 +228,7 @@ end
   ["elio basio"] = function()
     sendNotification("Moon Convert", "Ran!", 7)
     if game.Players.LocalPlayer.Character:FindFirstChild("MoonConvertRealChar") then
-      loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/elio%20basio.lua", true))()
+      loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/elio%20basio.lua", true))()
     else
       sendNotification("Moon Convert", "Please use command \"reanimate\" first.", 7)
     end
@@ -256,7 +256,7 @@ end
   ["soul reaper"] = function()
     sendNotification("Moon Convert", "Ran!", 7)
     if game.Players.LocalPlayer.Character:FindFirstChild("MoonConvertRealChar") then
-      loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/soul%20reaper.lua", true))()
+      loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/soul%20reaper.lua", true))()
     else
       sendNotification("Moon Convert", "Please use command \"reanimate\" first.", 7)
     end
@@ -284,7 +284,7 @@ end
   ["sin dragon"] = function()
     sendNotification("Moon Convert", "Ran!", 7)
     if game.Players.LocalPlayer.Character:FindFirstChild("MoonConvertRealChar") then
-      loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/sin%20dragon.lua", true))()
+      loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Converts/sin%20dragon.lua", true))()
     else
       sendNotification("Moon Convert", "Please use command \"reanimate\" first.", 7)
     end

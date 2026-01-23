@@ -1,6 +1,6 @@
 # Moon Convert - An opensource Reanimate hub for Just a baseplate/Green baseplate.
 
-![moonconvert](https://github.com/CatThatDrinksSprite/Moon-Convert/raw/main/moonconvert.png)
+![moonconvert](https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/moonconvert.png)
 
 ## // QUICK LINKS //
 
@@ -9,7 +9,7 @@
 # What are you waiting for? Use it now!
 
 ```lua
-loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Main/Moon%20Convert.lua", true))()
+loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Main/Moon%20Convert.lua", true))()
 ```
 
 ## // CREDITS //
