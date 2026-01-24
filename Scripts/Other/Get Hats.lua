@@ -6,7 +6,7 @@ loadstring(game:HttpGet('https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/
 function GetHats(t: table)
     if not LocalPlayer.Character:FindFirstChild('MoonConvertRealChar') then
         sendNotification('Moon Convert', 'Getting Hats!', 7)
-        ReplicatedStorage:WaitForChild('01_server'):FireServer('cmd', tostring(table.concat(t, ' ')))
+        ReplicatedStorage:WaitForChild('01_server'):FireServer('cmd', string.format('-gh %s', tostring(table.concat(t, ' '))))
     else
         sendNotification('Moon Convert', 'Please get hats before reanimating.', 7)
     end
