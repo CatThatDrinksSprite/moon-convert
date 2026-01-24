@@ -1,5 +1,5 @@
-loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Other/sendNotification.lua", true))()
-loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Other/AlignCharacter.lua", true))()
+loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Other/sendNotification.lua", true))()
+loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Other/AlignCharacter.lua", true))()
 
 -- // Astaria Glitcher // -- Yes the Effects are not mine and i am not sure who made them but if you know who made them then credit goes for the for the effects and they deserve all the support as imaginable.
 

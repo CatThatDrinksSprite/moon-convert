@@ -1,5 +1,5 @@
-loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Other/sendNotification.lua", true))()
-loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Other/AlignCharacter.lua", true))()
+loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Other/sendNotification.lua", true))()
+loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Other/AlignCharacter.lua", true))()
 
 -----------//Elio Blasio\\-----------
 --[[Movelist

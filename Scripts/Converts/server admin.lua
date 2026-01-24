@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Other/LoadLibrary.lua", true))()
+loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Other/LoadLibrary.lua", true))()
 wait(0.2)
 
 Player = Game:GetService("Players").LocalPlayer

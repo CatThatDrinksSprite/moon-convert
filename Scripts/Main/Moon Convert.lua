@@ -3,11 +3,11 @@ if not isfolder('ScriptBase') then
 end
 
 if not isfile('ScriptBase/notification.mp3') then
-	writefile('ScriptBase/notification.mp3', game:HttpGet('https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/ScriptBase/notification.mp3', true))
+	writefile('ScriptBase/notification.mp3', game:HttpGet('https://git.azula.wtf/CatThatDrinksSprite/moon-convert/raw/main/ScriptBase/notification.mp3', true))
 end
 
-loadstring(game:HttpGet('https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Main/Functions.lua', true))()
-loadstring(game:HttpGet('https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Other/sendNotification.lua', true))()
+loadstring(game:HttpGet('https://git.azula.wtf/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Main/Functions.lua', true))()
+loadstring(game:HttpGet('https://git.azula.wtf/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Other/sendNotification.lua', true))()
 setclipboard('discord.gg/DPBtncwaEm')
 sendNotification('Moon Convert', 'Join the discord! It was set to your clipboard.', 7)
 if game.PlaceId ~= 123974602339071 and game.PlaceId ~= 88308889239232 then

@@ -1,6 +1,6 @@
 local Players = game:GetService('Players')
 local LocalPlayer = Players.LocalPlayer
-loadstring(game:HttpGet('https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Other/sendNotification.lua', true))()
+loadstring(game:HttpGet('https://git.azula.wtf/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Other/sendNotification.lua', true))()
 
 function RunScript(s: string)
     if LocalPlayer.Character:FindFirstChild('MoonConvertRealChar') then
