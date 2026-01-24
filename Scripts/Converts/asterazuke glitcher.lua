@@ -2543,5 +2543,5 @@ if game.Players.LocalPlayer.Character:FindFirstChild("DemonLordSword") then
 		end
 	end
 else
-	sendNotification("Moon Convert", "It is recommended to wear the hats used for this script... You can get the hats by using \"get hats;asterazuke glitcher\"", 7)
+	sendNotification("Moon Convert", "It is recommended to wear the hats used for this script... You can get the hats by using \"get hats -h asterazuke glitcher\"", 7)
 end

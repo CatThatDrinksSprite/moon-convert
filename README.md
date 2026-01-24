@@ -9,7 +9,7 @@
 # What are you waiting for? Use it now!
 
 ```lua
-loadstring(game:HttpGet("https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Main/Moon%20Convert.lua", true))()
+loadstring(game:HttpGet('https://git.azula.wtf/CatThatDrinksSprite/Moon-Convert/raw/main/Scripts/Main/Moon%20Convert.lua', true))()
 ```
 
 ## // CREDITS //

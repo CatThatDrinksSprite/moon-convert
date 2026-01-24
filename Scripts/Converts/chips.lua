@@ -1653,16 +1653,16 @@ mouse.KeyDown:connect(function(key)
 end)
 
  
-if game.Players.LocalPlayer.Character:FindFirstChild("Pillow") then
-	game.Players.LocalPlayer.Character.Pillow.Handle.AccessoryWeld:Destroy()
-	AlignCharacter(game.Players.LocalPlayer.Character.Pillow.Handle, game.Players.LocalPlayer.Character.Chips.Part, Vector3.new(0, 0, 0), Vector3.new(90, 0, 90))
+if game.Players.LocalPlayer.Character:FindFirstChild("Accessory (doritos)") then
+	game.Players.LocalPlayer.Character["Accessory (doritos)"].Handle.AccessoryWeld:Destroy()
+	AlignCharacter(game.Players.LocalPlayer.Character["Accessory (doritos)"].Handle, game.Players.LocalPlayer.Character.Chips.Part, Vector3.new(0, 0, 0), Vector3.new(0, 0, 0))
 	for index, asset in pairs(game.Players.LocalPlayer.Character.Chips:GetChildren()) do
 		if asset:IsA("BasePart") then
 			asset.Transparency = 1
 		end
 	end
 else
-	sendNotification("Moon Convert", "It is recommended to wear the hats used for this script... You can get the hats by using \"get hats;chips\"", 7)
+	sendNotification("Moon Convert", "It is recommended to wear the hats used for this script... You can get the hats by using \"get hats -h chips\"", 7)
 end
 
 
