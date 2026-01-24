@@ -7,10 +7,10 @@ loadstring(game:HttpGet('https://git.azula.wtf/CatThatDrinksSprite/moon-convert/
 Functions = {
   ['reanimate'] = function()
       if not LocalPlayer.Character:FindFirstChild('MoonConvertRealChar') then
-          sendNotification('Moon Convert', 'Reanimating!', 7)
+          sendNotification('Reanimating!', 7)
           loadstring(game:HttpGet('https://git.azula.wtf/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Reanimation/MyWorld.lua', true))()
       else
-          sendNotification('Moon Convert', 'You are already reanimated.', 7)
+          sendNotification('You are already reanimated.', 7)
       end
   end,
   ['animation man'] = function()

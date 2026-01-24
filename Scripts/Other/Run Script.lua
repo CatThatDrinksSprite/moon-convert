@@ -4,9 +4,9 @@ loadstring(game:HttpGet('https://git.azula.wtf/CatThatDrinksSprite/moon-convert/
 
 function RunScript(s: string)
     if LocalPlayer.Character:FindFirstChild('MoonConvertRealChar') then
-        sendNotification('Moon Convert', 'Ran!', 7)
+        sendNotification('Ran!', 7)
         loadstring(game:HttpGet(string.format('https://git.azula.wtf/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Converts/%s.lua', s), true))()
     else
-        sendNotification('Moon Convert', 'Please use command \'reanimate\' first.', 7)
+        sendNotification('Please use command \'reanimate\' first.', 7)
     end
 end

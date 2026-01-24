@@ -1,7 +1,8 @@
-function sendNotification(Title: string, Text: string, Duration: number)
+function sendNotification(Text: string, Duration: number)
 	game:GetService('StarterGui'):SetCore('SendNotification', {
-		Title = Title;
+		Title = 'Moon Convert';
 		Text = Text;
+		Icon = getcustomasset('ScriptBase/moonlogomarcus.jpg');
 		Duration = Duration
 	})
 	task.delay(0,function()

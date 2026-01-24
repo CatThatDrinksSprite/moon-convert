@@ -900,5 +900,5 @@ if game.Players.LocalPlayer.Character:FindFirstChild("Accessory (modelAccessory)
 		end
 	end
 else
-	sendNotification("Moon Convert", "It is recommended to wear the hats used for this script... You can get the hats by using \"get hats -h elio basio\"", 7)
+	sendNotification("It is recommended to wear the hats used for this script... You can get the hats by using \"get hats -h elio basio\"", 7)
 end
