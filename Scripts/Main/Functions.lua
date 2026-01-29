@@ -40,6 +40,12 @@ Functions = {
   ['holiday feelings'] = function()
       RunScript('holiday%20feelings')
   end,
+  ['i am the speed'] = function()
+      RunScript('i%20am%20the%20speed')
+  end,
+  ['get hats -h i am the speed'] = function()
+      GetHats({125536240856120, 125536240856120})
+  end,
   ['memeus'] = function()
       RunScript('memeus')
   end,
