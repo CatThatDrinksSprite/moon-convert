@@ -28,7 +28,18 @@ Functions = {
           local Character = game:GetService('Players').LocalPlayer.Character or game:GetService('Players').LocalPlayer.CharacterAdded:Wait()
 
           Character:WaitForChild('HumanoidRootPart').CFrame = CFrame.new(%s)
-          loadstring(game:HttpGet('https://git.azula.wtf/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Main/Moon%%20Convert.lua', true))()
+          flingButtonText = 'Anti Exploiter Fling\n'
+          game:GetService('Players').LocalPlayer:WaitForChild('PlayerGui'):WaitForChild('ScreenGui')
+returnFlingButton = function()
+    for _,v in pairs (game.Players.LocalPlayer.PlayerGui:GetDescendants()) do
+        if (v:IsA"TextButton") and (v.Text == flingButtonText) then
+            return v
+        end
+    end
+end
+
+firesignal(returnFlingButton().MouseButton1Click)
+loadstring(game:HttpGet('https://git.azula.wtf/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Main/Moon%%20Convert.lua', true))()
       ]], tostring(game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame)))
       game:GetService('TeleportService'):Teleport(game.PlaceId, game.Players.LocalPlayer, game.JobId)
   end,
