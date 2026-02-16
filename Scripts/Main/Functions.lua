@@ -22,6 +22,16 @@ Functions = {
   ['get hats -h asterazuke glitcher'] = function()
       GetHats({5268555719, 5268602207, 5316479641, 5316549755, 5316539421, 5268710380, 6904794619})
   end,
+  ['better rj'] = function()
+      queue_on_teleport(string.format([[
+          game:GetService('Players').PlayerAdded:Wait()
+          local Character = game:GetService('Players').LocalPlayer.Character or game:GetService('Players').LocalPlayer.CharacterAdded:Wait()
+
+          Character:WaitForChild('HumanoidRootPart').CFrame = CFrame.new(%s)
+          loadstring(game:HttpGet('https://git.azula.wtf/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Main/Moon%%20Convert.lua', true))()
+      ]], tostring(game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame)))
+      game:GetService('TeleportService'):Teleport(game.PlaceId, game.Players.LocalPlayer, game.JobId)
+  end,
   ['caducus'] = function()
       RunScript('caducus')
   end,
