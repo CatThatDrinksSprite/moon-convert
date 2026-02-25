@@ -70,6 +70,9 @@ loadstring(game:HttpGet('https://git.azula.wtf/CatThatDrinksSprite/moon-convert/
   ['memeus'] = function()
       RunScript('memeus')
   end,
+  ['moon dances'] = function()
+      RunScript('moon%20dances')
+  end,
   ['server admin'] = function()
       RunScript('server%20admin')
   end,
