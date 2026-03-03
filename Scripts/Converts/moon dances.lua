@@ -1,5 +1,5 @@
 if not isfolder('ScriptBase/MoonDances') then
-    createfolder('ScriptBase/MoonDances')
+    makefolder('ScriptBase/MoonDances')
 end
 
 if not isfile('ScriptBase/MoonDances/chess.mp3') then
