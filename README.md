@@ -22,7 +22,7 @@ This project is licensed under the [GNU General Public License v3.0 or later](ht
 | Chips | Yes |
 | Elio Basio | Yes |
 | Holiday Feelings | No |
-| I am the speed | Yes |
+| I Am The Speed | Yes |
 | Memeus | No |
 | Moon Dances | No |
 | Server Admin | No |
