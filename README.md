@@ -1,23 +1,44 @@
-# Moon Convert - An opensource Reanimate hub for Just a baseplate/Green baseplate.
+<div align='center'>
 
-![moonconvert](https://git.azula.wtf/CatThatDrinksSprite/moon-convert/raw/main/moonconvert.png)
+# 🌙 Moon Convert
 
-## // QUICK LINKS //
+**An opensource Reanimate hub for Just a baseplate/Green baseplate.**
 
-> Discord https://discord.gg/DPBtncwaEm
+## License
 
-# What are you waiting for? Use it now!
+This project is licensed under the [GNU General Public License v3.0 or later](https://git.azula.wtf/CatThatDrinksSprite/moon-convert/-/blob/main/LICENSE).
+
+</div>
+
+---
+
+## ✨ Scripts
+
+| Script | Uses Hats |
+|--------|-----------|
+| Animation Man | No |
+| Asterazuke Glitcher | Yes |
+| Caducus | No |
+| Chips | Yes |
+| Elio Basio | Yes |
+| Holiday Feelings | No |
+| I am the speed | Yes |
+| Memeus | No |
+| Moon Dances | No |
+| Server Admin | No |
+| Sin Dragon | Yes |
+| Sonic | No |
+| Soul Reaper | Yes |
+
+It is optional to use hats on every script that does use hats.
+
+## 📦 Script
+
+<details>
+<summary>(Click to expand)</summary>
 
 ```lua
-loadstring(game:HttpGet('https://git.azula.wtf/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Main/Moon%20Convert.lua', true))()
+loadstring(game:HttpGet('https://git.azula.wtf/CatThatDrinksSprite/moon-convert/-/raw/main/Scripts/Main/Moon%20Convert.lua', true))()
 ```
 
-## // CREDITS //
-
-CatThatDrinksSprite - made this script
-
-whoever made the original fd/require scripts
-
-myworld - made the reanimate
-
-emper - helped me convert some stuff
+</details>
