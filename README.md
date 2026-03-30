@@ -1,7 +1,5 @@
 <div align='center'>
 
-# THIS IS A TEMPORARY GITHUB REPOSITORY UNTIL AZULGIT COMES BACK
-
 # 🌙 Moon Convert
 
 **An opensource Reanimate hub for Just a baseplate/Green baseplate.**
