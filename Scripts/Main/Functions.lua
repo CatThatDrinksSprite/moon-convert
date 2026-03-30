@@ -1,14 +1,14 @@
 local Players = game:GetService('Players')
 local LocalPlayer = Players.LocalPlayer
-loadstring(game:HttpGet('https://git.azula.wtf/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Other/sendNotification.lua', true))()
-loadstring(game:HttpGet('https://git.azula.wtf/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Other/Run%20Script.lua', true))()
-loadstring(game:HttpGet('https://git.azula.wtf/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Other/Get%20Hats.lua', true))()
+loadstring(game:HttpGet('https://github.com/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Other/sendNotification.lua', true))()
+loadstring(game:HttpGet('https://github.com/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Other/Run%20Script.lua', true))()
+loadstring(game:HttpGet('https://github.com/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Other/Get%20Hats.lua', true))()
 
 Functions = {
   ['reanimate'] = function()
       if not LocalPlayer.Character:FindFirstChild('MoonConvertRealChar') then
           sendNotification('Reanimating!', 7)
-          loadstring(game:HttpGet('https://git.azula.wtf/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Reanimation/MyWorld.lua', true))()
+          loadstring(game:HttpGet('https://github.com/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Reanimation/MyWorld.lua', true))()
       else
           sendNotification('You are already reanimated.', 7)
       end
@@ -39,7 +39,7 @@ returnFlingButton = function()
 end
 
 firesignal(returnFlingButton().MouseButton1Click)
-loadstring(game:HttpGet('https://git.azula.wtf/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Main/Moon%%20Convert.lua', true))()
+loadstring(game:HttpGet('https://github.com/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Main/Moon%%20Convert.lua', true))()
       ]], tostring(game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame)))
       game:GetService('TeleportService'):Teleport(game.PlaceId, game.Players.LocalPlayer, game.JobId)
   end,
