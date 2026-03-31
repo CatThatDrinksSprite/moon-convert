@@ -83,7 +83,7 @@ local ray = Ray.new
 local v3 = Vector3.new
 cff5 = cf5 * CFrame.Angles(rad(2),rad(3),rad(0))
 cff6 = cf6 * CFrame.Angles(rad(2),rad(-3),rad(0))
-furmode = true
+-- furmode = true
 if furmode then
 hugtime = 2.5
 print("owo uwu")
