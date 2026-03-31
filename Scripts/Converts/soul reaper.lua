@@ -918,5 +918,5 @@ if game.Players.LocalPlayer.Character:FindFirstChild("Accessory (Clock)") then
 		end
 	end
 else
-	sendNotification("It is recommended to wear the hats used for this script... You can get the hats by using \"get hats -h soul reaper\"", 7)
+	sendNotification("yo i recommend using the hats for this script, type \"soulreaper-h\" in da cmd bar", 7)
 end

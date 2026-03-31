@@ -1683,5 +1683,5 @@ if game.Players.LocalPlayer.Character:FindFirstChild('Accessory (MeshPartAccesso
 		end
 	end
 else
-	sendNotification('It is recommended to wear the hats used for this script... You can get the hats by using "get hats -h i am the speed"', 7)
+	sendNotification('yo i recommend using the hats for this script, type "iamthespeed-h" in da cmd bar', 7)
 end

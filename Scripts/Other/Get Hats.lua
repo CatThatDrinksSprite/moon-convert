@@ -5,9 +5,9 @@ loadstring(game:HttpGet('https://github.com/CatThatDrinksSprite/moon-convert/raw
 
 function GetHats(t: table)
     if not LocalPlayer.Character:FindFirstChild('MoonConvertRealChar') then
-        sendNotification('Getting Hats!', 7)
+        sendNotification('im getting da hats', 7)
         ReplicatedStorage:WaitForChild('01_server'):FireServer('cmd', string.format('-gh %s', tostring(table.concat(t, ' '))))
     else
-        sendNotification('Please get hats before reanimating.', 7)
+        sendNotification('i think you needa get hats before reanimating', 7)
     end
 end

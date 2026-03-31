@@ -7,41 +7,20 @@ loadstring(game:HttpGet('https://github.com/CatThatDrinksSprite/moon-convert/raw
 Functions = {
   ['reanimate'] = function()
       if not LocalPlayer.Character:FindFirstChild('MoonConvertRealChar') then
-          sendNotification('Reanimating!', 7)
+          sendNotification('reanimating!', 7)
           loadstring(game:HttpGet('https://github.com/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Reanimation/MyWorld.lua', true))()
       else
-          sendNotification('You are already reanimated.', 7)
+          sendNotification('yo bro i think your already reanimated', 7)
       end
   end,
-  ['animation man'] = function()
+  ['animationman'] = function()
       RunScript('animation%20man')
   end,
-  ['asterazuke glitcher'] = function()
+  ['asterazukeglitcher'] = function()
       RunScript('asterazuke%20glitcher')
   end,
-  ['get hats -h asterazuke glitcher'] = function()
+  ['asterazukeglitcher-hats'] = function()
       GetHats({5268555719, 5268602207, 5316479641, 5316549755, 5316539421, 5268710380, 6904794619})
-  end,
-  ['better rj'] = function()
-      queue_on_teleport(string.format([[
-          game:GetService('Players').PlayerAdded:Wait()
-          local Character = game:GetService('Players').LocalPlayer.Character or game:GetService('Players').LocalPlayer.CharacterAdded:Wait()
-
-          Character:WaitForChild('HumanoidRootPart').CFrame = CFrame.new(%s)
-          flingButtonText = 'Anti Exploiter Fling\n'
-          game:GetService('Players').LocalPlayer:WaitForChild('PlayerGui'):WaitForChild('ScreenGui')
-returnFlingButton = function()
-    for _,v in pairs (game.Players.LocalPlayer.PlayerGui:GetDescendants()) do
-        if (v:IsA"TextButton") and (v.Text == flingButtonText) then
-            return v
-        end
-    end
-end
-
-firesignal(returnFlingButton().MouseButton1Click)
-loadstring(game:HttpGet('https://github.com/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Main/Moon%%20Convert.lua', true))()
-      ]], tostring(game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame)))
-      game:GetService('TeleportService'):Teleport(game.PlaceId, game.Players.LocalPlayer, game.JobId)
   end,
   ['caducus'] = function()
       RunScript('caducus')
@@ -49,46 +28,46 @@ loadstring(game:HttpGet('https://github.com/CatThatDrinksSprite/moon-convert/raw
   ['chips'] = function()
       RunScript('chips')
   end,
-  ['get hats -h chips'] = function()
+  ['chips-hats'] = function()
       GetHats({79048497383958})
   end,
-  ['elio basio'] = function()
+  ['eliobasio'] = function()
       RunScript('elio%20basio')
   end,
-  ['get hats -h elio basio'] = function()
+  ['eliobasio-hats'] = function()
       GetHats({100171532179089})
   end,
-  ['holiday feelings'] = function()
+  ['holidayfeelings'] = function()
       RunScript('holiday%20feelings')
   end,
-  ['i am the speed'] = function()
+  ['iamthespeed'] = function()
       RunScript('i%20am%20the%20speed')
   end,
-  ['get hats -h i am the speed'] = function()
+  ['iamthespeed-hats'] = function()
       GetHats({125536240856120, 125536240856120})
   end,
   ['memeus'] = function()
       RunScript('memeus')
   end,
-  ['moon dances'] = function()
+  ['moondances'] = function()
       RunScript('moon%20dances')
   end,
-  ['server admin'] = function()
+  ['serveradmin'] = function()
       RunScript('server%20admin')
   end,
-  ['sin dragon'] = function()
+  ['sindragon'] = function()
       RunScript('sin%20dragon')
   end,
-  ['get hats -h sin dragon'] = function()
+  ['sindragon-hats'] = function()
       GetHats({103553910759670, 80946588383348, 91231828844169})
   end,
   ['sonic'] = function()
       RunScript('sonic')
   end,
-  ['soul reaper'] = function()
+  ['soulreaper'] = function()
       RunScript('soul%20reaper')
   end,
-  ['get hats -h soul reaper'] = function()
+  ['soulreaper-hats'] = function()
       GetHats({128219376096305})
   end,
 }

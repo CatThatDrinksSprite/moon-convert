@@ -1662,7 +1662,7 @@ if game.Players.LocalPlayer.Character:FindFirstChild("Accessory (doritos)") then
 		end
 	end
 else
-	sendNotification("It is recommended to wear the hats used for this script... You can get the hats by using \"get hats -h chips\"", 7)
+	sendNotification("yo i recommend using the hats for this script, type \"chips-hats\" in da cmd bar", 7)
 end
 
 
