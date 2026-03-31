@@ -25,7 +25,7 @@ if game.PlaceId ~= 123974602339071 then
 end
 
 local Window = Library:CreateWindow({
-	Name = "Moon Convert",
+	Name = "Moon Convert (; to Open)",
 	IntroText = "Moon Convert",
 	IntroIcon = getcustomasset("ScriptBase/moonlogomarcus.jpg"),
 	IntroBlur = true,
