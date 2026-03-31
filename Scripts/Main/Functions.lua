@@ -40,9 +40,8 @@ Functions = {
   ['holidayfeelings'] = function()
       RunScript('holiday%20feelings')
   end,
-  ['holidayfeelings2'] = function()
-      RunScript('holiday%20feelings2')
-      sendNotification('idk why but this version just changes the hug time, and the sit animation', 7)
+  ['holidayfeelingsfurmode'] = function()
+      RunScript('holiday%20feelingsfurmode')
   end,
   ['iamthespeed'] = function()
       RunScript('i%20am%20the%20speed')
