@@ -4,16 +4,16 @@ if not isfolder('ScriptBase') then
 end
 
 if not isfile('ScriptBase/notification.mp3') then
-	writefile('ScriptBase/notification.mp3', game:HttpGet('https://github.com/CatThatDrinksSprite/moon-convert/raw/main/ScriptBase/notification.mp3', true))
+	writefile('ScriptBase/notification.mp3', game:HttpGet('https://github.com/catthatdrinkssprite/moon-convert/raw/main/ScriptBase/notification.mp3', true))
 end
 
 if not isfile('ScriptBase/moonlogomarcus.jpg') then
-	writefile('ScriptBase/moonlogomarcus.jpg', game:HttpGet('https://github.com/CatThatDrinksSprite/moon-convert/raw/main/ScriptBase/moonlogomarcus.jpg', true))
+	writefile('ScriptBase/moonlogomarcus.jpg', game:HttpGet('https://github.com/catthatdrinkssprite/moon-convert/raw/main/ScriptBase/moonlogomarcus.jpg', true))
 end
 
 -- // libraries
-loadstring(game:HttpGet('https://github.com/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Main/Functions.lua', true))()
-loadstring(game:HttpGet('https://github.com/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Other/sendNotification.lua', true))()
+loadstring(game:HttpGet('https://github.com/catthatdrinkssprite/moon-convert/raw/main/Scripts/Main/Functions.lua', true))()
+loadstring(game:HttpGet('https://github.com/catthatdrinkssprite/moon-convert/raw/main/Scripts/Other/sendNotification.lua', true))()
 local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/VisualRoblox/Roblox/main/UI-Libraries/Visual%20Command%20UI%20Library/Source.lua', true))()
 
 -- // main

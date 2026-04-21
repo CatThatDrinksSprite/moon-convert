@@ -1,14 +1,14 @@
 local Players = game:GetService('Players')
 local LocalPlayer = Players.LocalPlayer
-loadstring(game:HttpGet('https://github.com/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Other/sendNotification.lua', true))()
-loadstring(game:HttpGet('https://github.com/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Other/Run%20Script.lua', true))()
-loadstring(game:HttpGet('https://github.com/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Other/Get%20Hats.lua', true))()
+loadstring(game:HttpGet('https://github.com/catthatdrinkssprite/moon-convert/raw/main/Scripts/Other/sendNotification.lua', true))()
+loadstring(game:HttpGet('https://github.com/catthatdrinkssprite/moon-convert/raw/main/Scripts/Other/Run%20Script.lua', true))()
+loadstring(game:HttpGet('https://github.com/catthatdrinkssprite/moon-convert/raw/main/Scripts/Other/Get%20Hats.lua', true))()
 
 Functions = {
   ['reanimate'] = function()
       if not LocalPlayer.Character:FindFirstChild('MoonConvertRealChar') then
           sendNotification('reanimating!', 7)
-          loadstring(game:HttpGet('https://github.com/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Reanimation/MyWorld.lua', true))()
+          loadstring(game:HttpGet('https://github.com/catthatdrinkssprite/moon-convert/raw/main/Scripts/Reanimation/MyWorld.lua', true))()
       else
           sendNotification('yo bro i think your already reanimated', 7)
       end

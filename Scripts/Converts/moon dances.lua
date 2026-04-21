@@ -3,19 +3,19 @@ if not isfolder('ScriptBase/MoonDances') then
 end
 
 if not isfile('ScriptBase/MoonDances/chess.mp3') then
-    writefile('ScriptBase/MoonDances/chess.mp3', game:HttpGet('https://github.com/CatThatDrinksSprite/moon-convert/raw/main/ScriptBase/MoonDances/chess.mp3', true))
+    writefile('ScriptBase/MoonDances/chess.mp3', game:HttpGet('https://github.com/catthatdrinkssprite/moon-convert/raw/main/ScriptBase/MoonDances/chess.mp3', true))
 end
 
 if not isfile('ScriptBase/MoonDances/getsturdy.mp3') then
-    writefile('ScriptBase/MoonDances/getsturdy.mp3', game:HttpGet('https://github.com/CatThatDrinksSprite/moon-convert/raw/main/ScriptBase/MoonDances/getsturdy.mp3', true))
+    writefile('ScriptBase/MoonDances/getsturdy.mp3', game:HttpGet('https://github.com/catthatdrinkssprite/moon-convert/raw/main/ScriptBase/MoonDances/getsturdy.mp3', true))
 end
 
 if not isfile('ScriptBase/MoonDances/step.mp3') then
-    writefile('ScriptBase/MoonDances/step.mp3', game:HttpGet('https://github.com/CatThatDrinksSprite/moon-convert/raw/main/ScriptBase/MoonDances/step.mp3', true))
+    writefile('ScriptBase/MoonDances/step.mp3', game:HttpGet('https://github.com/catthatdrinkssprite/moon-convert/raw/main/ScriptBase/MoonDances/step.mp3', true))
 end
 
 if not isfile('ScriptBase/MoonDances/mesmerizer.mp3') then
-    writefile('ScriptBase/MoonDances/mesmerizer.mp3', game:HttpGet('https://github.com/CatThatDrinksSprite/moon-convert/raw/main/ScriptBase/MoonDances/mesmerizer.mp3', true))
+    writefile('ScriptBase/MoonDances/mesmerizer.mp3', game:HttpGet('https://github.com/catthatdrinkssprite/moon-convert/raw/main/ScriptBase/MoonDances/mesmerizer.mp3', true))
 end
 
 local Players = game:GetService("Players")

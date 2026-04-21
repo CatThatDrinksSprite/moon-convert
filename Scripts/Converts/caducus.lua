@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Other/LoadLibrary.lua", true))()
+loadstring(game:HttpGet("https://github.com/catthatdrinkssprite/moon-convert/raw/main/Scripts/Other/LoadLibrary.lua", true))()
 wait(1 / 60)
 Effects = { }
 local player = game.Players.LocalPlayer

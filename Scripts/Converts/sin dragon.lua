@@ -1,8 +1,8 @@
-loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Other/AlignCharacter.lua", true))()
-loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Other/sendNotification.lua", true))()
+loadstring(game:HttpGet("https://github.com/catthatdrinkssprite/moon-convert/raw/main/Scripts/Other/AlignCharacter.lua", true))()
+loadstring(game:HttpGet("https://github.com/catthatdrinkssprite/moon-convert/raw/main/Scripts/Other/sendNotification.lua", true))()
 
 if not isfile("ScriptBase/sin dragon.mp3") then
-	writefile("ScriptBase/sin dragon.mp3", game:HttpGet("https://github.com/CatThatDrinksSprite/moon-convert/raw/main/ScriptBase/sin%20dragon.mp3", true))
+	writefile("ScriptBase/sin dragon.mp3", game:HttpGet("https://github.com/catthatdrinkssprite/moon-convert/raw/main/ScriptBase/sin%20dragon.mp3", true))
 end
 
 -----------------

@@ -6,7 +6,7 @@
 
 ## License
 
-This project is licensed under the [GNU General Public License v3.0 or later](https://github.com/CatThatDrinksSprite/moon-convert/blob/main/LICENSE).
+This project is licensed under the [GNU General Public License v3.0 or later](https://github.com/catthatdrinkssprite/moon-convert/blob/main/LICENSE).
 
 </div>
 
@@ -38,7 +38,7 @@ It is optional to use hats on every script that does use hats.
 <summary>(Click to expand)</summary>
 
 ```lua
-loadstring(game:HttpGet('https://github.com/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Main/Moon%20Convert.lua', true))()
+loadstring(game:HttpGet('https://github.com/catthatdrinkssprite/moon-convert/raw/main/Scripts/Main/Moon%20Convert.lua', true))()
 ```
 
 </details>

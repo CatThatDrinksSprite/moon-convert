@@ -1,5 +1,5 @@
-loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Other/sendNotification.lua", true))()
-loadstring(game:HttpGet("https://github.com/CatThatDrinksSprite/moon-convert/raw/main/Scripts/Other/AlignCharacter.lua", true))()
+loadstring(game:HttpGet("https://github.com/catthatdrinkssprite/moon-convert/raw/main/Scripts/Other/sendNotification.lua", true))()
+loadstring(game:HttpGet("https://github.com/catthatdrinkssprite/moon-convert/raw/main/Scripts/Other/AlignCharacter.lua", true))()
 
 local b, script = xpcall(function()
 	return game:GetObjects('rbxassetid://97662830148074')[1]
