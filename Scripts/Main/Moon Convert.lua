@@ -19,8 +19,8 @@ local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/Visua
 -- // main
 setclipboard('discord.gg/DPBtncwaEm')
 sendNotification('please join the discord, it was set to your clipboard', 7)
-if game.PlaceId ~= 123974602339071 then
-	sendNotification('please be in just a baseplate', 7)
+if game.PlaceId ~= 88308889239232 then
+	sendNotification('please be in green baseplate', 7)
 	return
 end
 
